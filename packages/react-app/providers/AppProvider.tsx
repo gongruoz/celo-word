@@ -11,8 +11,7 @@ import { WagmiProvider, createConfig, http } from 'wagmi';
 import { celo, celoAlfajores } from 'wagmi/chains';
 
 import Layout from '../components/Layout';
-import { injectedWallet } from '@rainbow-me/rainbowkit/wallets';
-import { metaMaskWallet } from '@rainbow-me/rainbowkit/wallets';
+import { injectedWallet, metaMaskWallet } from '@rainbow-me/rainbowkit/wallets';
 
 const connectors = connectorsForWallets(
   [
